@@ -363,7 +363,7 @@ export default function IndexPage() {
           <p className="font-kaushan max-w-md text-warm-yellow leading-8 text-base mx-8 my-8 sm:text-base md:mx-auto">
               *yes, not 4999/- because I don't have enough 1 rupee coins to give back to everyone
           </p>
-          <a className="gumroad-button" href="https://gum.co/cUtVz"
+          <a className="gumroad-button" href="https://gum.co/wYJNrK"
           className="mx-4 md:mx-auto flex justify-center my-24">
                 <button
                     onClick={setHidden}
