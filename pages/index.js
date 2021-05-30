@@ -49,7 +49,7 @@ export default function IndexPage() {
   return (
       <div className="bg-primary">
           <Head>
-              <title>Epic Hiring Course</title>
+              <title>Ace your next interview | Epic Hiring Course</title>
               <meta name="viewport" content="initial-scale=1.0, width=device-width" />
               <meta property="og:title" content="Ace your next interview | Epic Hiring Course" key="title" />
               <meta name="description" content="Learn how to ace your interview & negotiate better salaries" />
