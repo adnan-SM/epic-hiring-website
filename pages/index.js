@@ -30,6 +30,10 @@ export default function IndexPage() {
         setIsScrolling(false);
     }
 
+    const scratchClick = () => {
+        setScratchedClassName('line-through');
+    }
+
     useEffect(() => {
         window.addEventListener("scroll", onViewScrolled, { passive: true });
         return () => {
@@ -39,6 +43,7 @@ export default function IndexPage() {
 
     const [darkModeEnabled, setDarkModeEnabled] = useState(false);
     const [, setIsScrolling] = useState(false);
+    const [scratchedClassName, setScratchedClassName] = useState('');
 
   return (
       <div className="bg-primary">
@@ -68,11 +73,14 @@ export default function IndexPage() {
               <DarkModeImage isExpanded={darkModeEnabled} imageClicked={onDarkModeClicked} className="z-20" />
           </div>
           <div className="text-accent-blue-light font-kaushan max-w-2xl text-3xl mx-8 my-8 md:mx-auto md:text-5xl">
-              What will you learn?
+              <span>What will you </span>
+              <span className={scratchedClassName}>learn?</span>
           </div>
           <div>
               <p className="font-overpass max-w-2xl text-warm-yellow leading-8 md:text-lg mx-8 text-base md:mx-auto">
-                  Did I say learn? Sorry scratch that, I meant to say What you'll do! This course is all about doing, unlike other courses which keep going on & on without telling you what to do(Just so that this course doesn't become one of them, I am telling you to purchase the course already!)
+                  <span>Did I say learn? </span>
+                  <span className="underline cursor-pointer" onClick={scratchClick}>Sorry scratch that</span>
+                  <span>, I meant to say What you'll do! This course is all about doing, unlike other courses which keep going on & on without telling you what to do(Just so that this course doesn't become one of them, I am telling you to purchase the course already!)</span>
               </p>
           </div>
           <div className="flex justify-start">
