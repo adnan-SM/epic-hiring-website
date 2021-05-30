@@ -5,7 +5,7 @@
     "dev": "next",
     "build": "next build",
     "prod": "next build && next export",
-    "start": "next start"
+    "start": "next start -p 8080"
   },
   "dependencies": {
     "next": "latest",
