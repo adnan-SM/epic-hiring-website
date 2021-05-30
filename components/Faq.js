@@ -26,7 +26,7 @@ const faqs = [
     },
     {
         id: 5,
-        question: "I already am good at cracking interviews, will this course help me?",
+        question: "I am already good at cracking interviews, will this course help me?",
         answer:
             "Of-course, The course is aimed at all developers. Already being good at interviews provides a solid foundation to build upon & use the advanced techniques to grow your career exponentially.",
     },
