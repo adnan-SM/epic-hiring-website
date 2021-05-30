@@ -8,6 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from "react-responsive-carousel";
 import DarkModeImage from "../components/DarkModeImage";
 import Faqs from "../components/Faq";
+import Head from 'next/head';
 
 
 export default function IndexPage() {
@@ -47,6 +48,10 @@ export default function IndexPage() {
 
   return (
       <div className="bg-primary">
+          <Head>
+              <title>Epic Hiring Course</title>
+              <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          </Head>
           <AnnouncementBanner />
           <div>
               <div>
