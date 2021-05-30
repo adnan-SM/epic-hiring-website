@@ -7,7 +7,13 @@ function DarkModeImage({ isExpanded, imageClicked }) {
     }
     return (
         <div>
-            <img src={imgSrc} title='' className="fixed right-0 mt-36 hidden lg:block cursor-pointer" onClick={imageClicked}/>
+            <img
+                src={imgSrc}
+                title=''
+                className="fixed right-0 mt-36 hidden lg:block cursor-pointer"
+                onClick={imageClicked}
+                alt='Enable Dark Mode'
+            />
         </div>
     );
 }
