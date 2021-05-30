@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Overpass+Mono&display=swap');
+
 @tailwind base;
 
 /* Write your own custom base styles here */
@@ -16,3 +18,31 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+button {
+  border-radius: 100rem;
+  font-size: 1rem;
+  padding: .5rem 3rem;
+  border: solid 3px transparent;
+  color: palegoldenrod;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #F4A8A1, #FAF3DD);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #3C404B inset;
+}
+
+button:hover {
+  box-shadow: none;
+  color: #3C404B;
+}
+
+.strike {
+  margin-top: 12rem;
+  background: -webkit-linear-gradient(bottom, transparent calc(.5em - 4px), #F4A8A1 calc(.5em - 4px), #FAF3DD .5em, transparent .5em);
+  background-size: 100% 1em;
+}
+
+.circle {
+  -webkit-clip-path: circle(50%);
+  clip-path: circle(50%);
+}
+

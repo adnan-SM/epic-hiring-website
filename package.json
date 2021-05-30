@@ -4,17 +4,19 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "prod": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
     "next": "latest",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-responsive-carousel": "^3.2.18"
   },
   "devDependencies": {
     "postcss-flexbugs-fixes": "4.2.1",
     "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^1.7.4"
+    "tailwindcss": "^1.9.0"
   },
   "license": "MIT"
 }
