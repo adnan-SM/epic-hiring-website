@@ -8,7 +8,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from "react-responsive-carousel";
 import DarkModeImage from "../components/DarkModeImage";
 import Faqs from "../components/Faq";
-import BlobImage from "../components/BlobImage";
 
 
 export default function IndexPage() {
