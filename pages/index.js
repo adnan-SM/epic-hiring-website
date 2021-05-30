@@ -8,6 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from "react-responsive-carousel";
 import DarkModeImage from "../components/DarkModeImage";
 import Faqs from "../components/Faq";
+import BlobImage from "../components/BlobImage";
 
 
 export default function IndexPage() {
@@ -275,39 +276,39 @@ export default function IndexPage() {
           <div className="font-overpass max-w-3xl text-warm-yellow leading-8 md:text-lg mx-8 sm:text-base md:mx-auto my-8">There's a large amount of stuff in the course. I promise you'll have a great time. Here's a quick summary.</div>
           <div className="mx-8 md:mx-auto max-w-3xl">
               <div className="max-w-2xl">
-                 <span className="inline-flex items-center px-6 py-0.5 rounded-2xl font-overpass bg-gradient-to-r from-coral-pink to-warm-yellow text-center md:text-3xl text-primary">
-                     1 Intro
+                 <span className="inline-flex items-center rounded px-6 py-0.5 font-overpass bg-highlight text-center md:text-3xl text-primary transform -rotate-1 hover:rotate-1">
+                     Intro
                  </span>
               </div>
               <div className="font-overpass max-w-3xl text-warm-yellow leading-8 md:text-xl mx-8 sm:text-base md:ml-auto my-2">A quick introduction to the current landscape of hiring. </div>
           </div>
           <div className="mx-8 md:mx-auto max-w-3xl my-16">
-             <span className="inline-flex items-center px-6 py-0.5 rounded-2xl font-medium font-overpass bg-gradient-to-r from-coral-pink to-warm-yellow text-center md:text-3xl text-primary">
-                 2 Resume Building
+             <span className="inline-flex items-center px-6 py-0.5 rounded font-medium font-overpass bg-gradient-to-r from-coral-pink to-warm-yellow text-center md:text-3xl text-primary transform -rotate-1 hover:rotate-1">
+                 Resume Building
              </span>
               <div className="font-overpass max-w-3xl text-warm-yellow leading-8 md:text-xl mx-8 sm:text-base md:ml-auto my-4">Deep dive into how to structure your resume & write a resume that gets you shortlisted every-time! We will also look at how to build your personal brand & optimize your online profile.</div>
           </div>
           <div className="mx-8 md:mx-auto max-w-3xl my-16">
-             <span className="inline-flex items-center px-6 py-0.5 rounded-2xl font-medium font-overpass bg-gradient-to-r from-coral-pink to-warm-yellow text-center md:text-3xl text-primary">
-                 3 Framework
+             <span className="inline-flex items-center px-6 py-0.5 rounded font-medium font-overpass bg-highlight  text-center md:text-3xl text-primary transform -rotate-1 hover:rotate-1">
+                 Framework
              </span>
               <div className="font-overpass max-w-3xl text-warm-yellow leading-8 md:text-xl mx-8 sm:text-base md:ml-auto my-4">A personal framework which I have been using & developing over the last decade.  where I show you how to develop a process around the entire hiring process & how to make the best use of it.</div>
           </div>
           <div className="mx-8 md:mx-auto max-w-3xl my-16">
-             <span className="inline-flex items-center px-6 py-0.5 rounded-2xl font-medium font-overpass bg-gradient-to-r from-coral-pink to-warm-yellow text-center md:text-3xl text-primary">
-                 4 Interview Prep
+             <span className="inline-flex items-center px-6 py-0.5 rounded font-medium font-overpass bg-gradient-to-r from-coral-pink to-warm-yellow text-center md:text-3xl text-primary transform -rotate-1 hover:rotate-1">
+                 Interview Prep
              </span>
               <div className="font-overpass max-w-3xl text-warm-yellow leading-8 md:text-xl mx-8 sm:text-base md:ml-auto my-4">Are you stuck forever preparing for interviews & then never end up scheduling an interview? In this module, we will get you ready for the interview, right from what to read for the interview to what questions to ask in each round while making sure you do it in a reasonable timeline.</div>
           </div>
           <div className="mx-8 md:mx-auto max-w-3xl my-16">
-             <span className="inline-flex items-center px-6 py-0.5 rounded-full font-medium font-overpass bg-gradient-to-r from-coral-pink to-warm-yellow text-center md:text-3xl text-primary">
-                 5 Offers & Negotiation
+             <span className="inline-flex items-center px-6 py-0.5 rounded font-medium font-overpass bg-highlight text-center md:text-3xl text-primary transform -rotate-1 hover:rotate-1">
+                 Offers & Negotiation
              </span>
               <div className="font-overpass max-w-3xl text-warm-yellow leading-8 md:text-xl mx-8 sm:text-base md:ml-auto my-4">This is probably one of the most important modules, you are here for. I cover all things related to negotiations, perk discussions, what to say & how to convince the firm to give you more! </div>
           </div>
           <div className="mx-8 md:mx-auto max-w-3xl my-16">
-             <span className="inline-flex items-center px-6 py-0.5 rounded-full font-medium font-overpass bg-gradient-to-r from-coral-pink to-warm-yellow text-center md:text-3xl text-primary">
-                 6 Accepting your dream job
+             <span className="inline-flex items-center px-6 py-0.5 rounded font-medium font-overpass bg-gradient-to-r from-coral-pink to-warm-yellow text-center md:text-3xl text-primary transform -rotate-1 hover:rotate-1">
+                 Accepting your dream job
              </span>
               <div className="font-overpass max-w-3xl text-warm-yellow leading-8 md:text-xl mx-8 sm:text-base md:ml-auto my-4">Finally, we will look at how to accept the offer & keep your growth options open. A few tips & tricks to make the first good impression when you join the firm.</div>
           </div>
@@ -363,12 +364,14 @@ export default function IndexPage() {
           <p className="font-kaushan max-w-md text-warm-yellow leading-8 text-base mx-8 my-8 sm:text-base md:mx-auto">
               *yes, not 4999/- because I don't have enough 1 rupee coins to give back to everyone
           </p>
-          <a className="gumroad-button" href="https://gum.co/cUtVz"
-          className="mx-4 md:mx-auto flex justify-center my-24">
+          <a className="gumroad-button" href="https://gum.co/wYJNrK"
+          className="mx-4 md:mx-auto flex justify-center mt-24">
                 <button
                     onClick={setHidden}
-                    className="button text-highlight font-kaushan max-w-sm text-lg">Get Amazing/More Job Offers Now</button>
+                    className="button text-highlight font-kaushan max-w-sm text-lg">Get Amazing/More Job Offers Now
+                </button>
           </a>
+          <div className="mx-4 my-4 md:mx-auto flex justify-center inline-block font-xs font-overpass text-highlight tracking-tighter text-center max-w-lg">Guaranteed results or get a 100% lifetime refund</div>
           <Faqs />
           <Footer />
       </div>
