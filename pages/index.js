@@ -52,6 +52,8 @@ export default function IndexPage() {
               <title>Epic Hiring Course</title>
               <meta name="viewport" content="initial-scale=1.0, width=device-width" />
               <meta property="og:title" content="Epic Hiring Course" key="title" />
+              <meta name="description" content="Learn how to ace your interview & negotiate better salaries" />
+              <meta property="og:description" content="Learn how to ace your interview & negotiate better salaries" />
           </Head>
           <AnnouncementBanner />
           <div>
