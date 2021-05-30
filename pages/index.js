@@ -386,7 +386,7 @@ export default function IndexPage() {
           <div className="mx-4 my-4 md:mx-auto flex justify-center inline-block font-xs font-overpass text-highlight tracking-tighter text-center max-w-lg">Guaranteed results or get a 100% lifetime refund</div>
           <Faqs />
           <Footer />
-          <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"/>
+          <script type="text/javascript" src="https://gumroad.com/js/gumroad.js" rel="noreferrer"/>
       </div>
   )
 }
