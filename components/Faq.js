@@ -65,7 +65,7 @@ export default function Faqs() {
                         {faqs.map((faq) => (
                             <div key={faq.id}>
                                 <dt className="font-extrabold text-highlight font-overpass text-xl">{faq.question}</dt>
-                                <dd className="mt-3 text-warm-yellow">{faq.answer}</dd>
+                                <dd className="mt-3 text-warm-yellow font-overpass">{faq.answer}</dd>
                             </div>
                         ))}
                     </dl>

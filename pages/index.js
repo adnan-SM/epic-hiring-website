@@ -382,10 +382,10 @@ export default function IndexPage() {
           className="mx-4 md:mx-auto flex justify-center mt-24">
                 <button
                     onClick={setHidden}
-                    className="button text-highlight font-kaushan max-w-sm text-lg">Get Amazing/More Job Offers Now
+                    className="px-4 py-2 bg-gradient-to-r from-coral-pink to-warm-yellow rounded-2xl text-primary font-overpass max-w-sm text-lg">Get More Job Offers Now
                 </button>
           </a>
-          <div className="mx-4 my-4 md:mx-auto flex justify-center inline-block font-xs font-overpass text-highlight tracking-tighter text-center max-w-lg">Guaranteed results or get a 100% lifetime refund</div>
+          <div className="mx-4 my-4 pb-16 md:mx-auto flex justify-center inline-block font-xs font-overpass text-highlight tracking-tighter text-center max-w-lg">Guaranteed results or get a 100% lifetime refund</div>
           <Faqs />
           <Footer />
           <script type="text/javascript" src="https://gumroad.com/js/gumroad.js" rel="noreferrer"/>

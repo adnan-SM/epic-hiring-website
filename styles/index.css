@@ -18,21 +18,21 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
-button {
-  border-radius: 100rem;
-  font-size: 1rem;
-  padding: .5rem 3rem;
-  border: solid 3px transparent;
-  color: palegoldenrod;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #F4A8A1, #FAF3DD);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  box-shadow: 2px 1000px 1px #3C404B inset;
+.button {
+  /*border-radius: 100rem;*/
+  /*font-size: 1rem;*/
+  /*padding: .5rem 3rem;*/
+  /*border: solid 3px transparent;*/
+  /*color: palegoldenrod;*/
+  /*background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #F4A8A1, #FAF3DD);*/
+  /*background-origin: border-box;*/
+  /*background-clip: content-box, border-box;*/
+  /*box-shadow: 2px 1000px 1px #3C404B inset;*/
 }
 
-button:hover {
-  box-shadow: none;
-  color: #3C404B;
+.button:hover {
+  /*box-shadow: none;*/
+  /*color: #3C404B;*/
 }
 
 .strike {
