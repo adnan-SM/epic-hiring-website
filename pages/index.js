@@ -66,7 +66,7 @@ export default function IndexPage() {
                       </h1>
                   </div>
                   <div className="mt-6 mx-16 max-w-lg md:mx-auto">
-                      <p className="inline-block pr-1 pb-1 bg-highlight text-center text-primary font-kaushan xs:text-base sm:text-lg md:mt-5 md:text-xl transform -rotate-2">
+                      <p className="inline-block pr-1 pb-1 bg-highlight opacity-90 text-center text-primary font-kaushan xs:text-base sm:text-lg md:mt-5 md:text-xl transform -rotate-2">
                           Learn how to get companies to chase you & offer you more
                       </p>
                   </div>
@@ -379,10 +379,10 @@ export default function IndexPage() {
               *yes, not 4999/- because I don't have enough 1 rupee coins to give back to everyone
           </p>
           <a className="gumroad-button" href="https://gum.co/wYJNrK"
-          className="mx-4 md:mx-auto flex justify-center mt-24">
+          className="mx-4 md:mx-auto flex justify-center mt-24 max-w-md">
                 <button
                     onClick={setHidden}
-                    className="px-4 py-2 bg-gradient-to-r from-coral-pink to-warm-yellow rounded-2xl text-primary font-overpass max-w-sm text-lg">Get More Job Offers Now
+                    className="px-8 py-4 bg-gradient-to-r from-coral-pink to-warm-yellow rounded-3xl text-primary font-overpass text-xl">Get More Job Offers Now
                 </button>
           </a>
           <div className="mx-4 my-4 pb-16 md:mx-auto flex justify-center inline-block font-xs font-overpass text-highlight tracking-tighter text-center max-w-lg">Guaranteed results or get a 100% lifetime refund</div>

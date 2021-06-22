@@ -8,6 +8,7 @@ function SecondaryImage() {
                title=''
                className="absolute right-0 -mt-24 hidden lg:block"
                alt='Girl writing on desk'
+               loading='lazy'
            />
         </div>
     );

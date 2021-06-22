@@ -48,6 +48,21 @@ const faqs = [
         answer:
             "You will get access to videos & PDFs of all the 7 modules, complete access to the community(Premium Plan Only) & free upgrades to all future content/modules.",
     },
+    {
+        id: 9,
+        question: "But what if I am not looking for a job switch right now?",
+        answer:
+            "While you may not be actively looking for a switch right now, I believe that you should always be building your profile & resume irrespective. This course will help you do exactly that. You can always buy this course later, but I can't guarantee that it will be available for the same price.",
+    },
+    {
+        id: 10,
+        question: "How is this course different from others?",
+        answer:
+            "I have built this course with practicality in mind, I show you techniques that have worked in the real world as opposed to giving tips which are not realistic. \n " +
+            "Ex: You probably have heard that you should never reveal your expected salary before the interview process. While that is great advice, most of the times it just doesn't work in real life. In the course I will give you practical tips that have been tested in the past & prepare you for such scenarios",
+
+
+    },
 ]
 
 export default function Faqs() {
